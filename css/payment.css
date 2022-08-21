@@ -1,0 +1,23 @@
+#contenido{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#payment-stat{
+    width:20vw;
+    height:20vw;
+}
+
+#payment-stat-text{
+    font-family:'Courier New','DotumChe','MS Gothic','Times New Roman';
+    text-align:center;
+}
+
+@media (max-width:232px){
+    #contenido{
+        display:none;
+    }
+}

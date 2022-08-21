@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Los juegos del chandal</title>
+        <link rel="stylesheet" href="/style.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script>
+            setTimeout('again()', 20000);
+
+            function again(){
+                window.location.reload
+            }
+        </script>
+        <nav>
+            <div id="nav-title">
+                <h1>Los Juegos del Chandal</h1>
+                <p>Creado por TheChandalMan</p>
+                <a style="font-size:min(1.5vh,1.5vw);text-decoration: none;color:black;" href="https://paucabrera.com" id="about" target="blank">Website by: Pau Cabrera</a>
+            </div>
+            <div id="links">
+                <a href="#about" class="link">Sobre el evento</a>
+                <a href="#content-creators" class="link">Streamers</a>
+                <a href="#proposed-games" class="link">Juegos</a>
+                <a href="#starred-content" class="link">Momentos destacados</a>
+            </div>
+        </nav>
+        <div id="info" class="div">
+            <h2 class="title">Sobre el evento</h2>
+            <p class="content">Los juegos del Chandal es una idea de "TheChandal Company" la cual es montar una buena juerga entre varios streamers y gente cercana a los canales de estos, la cual nos ayude a conocer mas gente del mundillo y dar un buen espectáculo. Como ya se ha hecho en otras ocasiones, el formato seria nombrar a 4 capitanes los cuales elegirán por turnos a los jugadores invitados al evento, dando asi un poquito de salseo a la competición. Se realizarian varios torneos y juegos a lo largo de la <span id="content-creators">jornada</span> de la cual solo un equipo resultará ganador. Se otorgarán puntos por posicion en la competicion para ver al final que equipo resultará ganador. Dicho esto..... ¡¡ QUE COMIENZEN LOS 1º JUEGOS DEL CHANDAL !!</p>
+        </div>
+        <div class="div" id="streamers">
+            <h2 class="title">Streamers</h2>
+            <div style="text-align:center;margin:3vh;">
+                <h4 style="color:red;">Información para creadores de contenido:</h4>
+                <p>Toda la información que se muestra de vuestros perfiles puede ser cambiada y actualizada siempre y cuando no rompa el estilo de la página y el cambio se realice antes del día del evento.</p>
+                <br/>
+                <p>Es responsabilidad de los streamers que sus datos y enlaces estén correctamente añadidos. Si algo no estuviera bien es responsabilidad del mismo o de la misma de ponerse en <a href="https://paucabrera.com#contact" target="blank" style="color:blue;">contacto</a> con el desarrollador de la web para actualizar su tarjeta.</p>
+            </div>
+            <div id="streamers-cards">
+                <div class="streamer" id="host">
+                    <span class="foto-span-active"></span><img src="/img/creators/thechandalman.webp" alt="Cargando foto, por favor espera" class="profile-photo"/>
+                    <div class="name-div" style="display:block;"><h4 class="name">TheChandalMan</h4><span style="text-align:center;display:inherit;width:100%;">Organizador</span><br/><span class="confirmed" style="color:#1b4f72;display:inherit;text-align:center;margin-top:-2vh;">Asistencia confirmada</span></div>
+                    <p class="creator info">Hola! Soy christian, kres para los colegas. Soy un colgao de los videojuegos desde el 91, amante del mundo del motor y payaso hasta la medula. Ponte Chandal!!!</p>
+                    <div class="btn">
+                        <a href="#" target="blank"><button class="links-btn">Conóceme</button></a>
+                        <a href="https://www.twitch.tv/thechandalman" target="blank"><button class="live-btn">Ver Directo</button></a>
+                    </div>
+                </div>
+                <div class="streamer" id="pakitron">
+                    <span class="foto-span-active"></span><img src="/img/creators/pakitron.webp" alt="Cargando foto, por favor espera" class="profile-photo"/>
+                    <div class="name-div"><h4 class="name">Pakitron5000</h4><span class="confirmed">Asistencia confirmada</span></div>
+                    <p class="creator info">❤️ Streamer y youtuber desde 2012. Diversidad de contenido y diversión todos los días a las 16:00. ❤️</p>
+                    <div class="btn">
+                        <a href="https://linktr.ee/PAKITRON5000" target="blank"><button class="links-btn">Conóceme</button></a>
+                        <a href="https://www.twitch.tv/pakitron5000" target="blank"><button class="live-btn">Ver Directo</button></a>
+                    </div>
+                </div>
+                <div class="streamer" id="nixfire">
+                    <span class="foto-span-active"></span><img src="/img/creators/nixfireblue.webp" alt="Cargando foto, por favor espera" class="profile-photo"/>
+                    <div class="name-div"><h4 class="name">NixFire_blue</h4><span class="confirmed">Asistencia confirmada</span></div>
+                    <p class="creator info">Buenas, soy Nix. Tengo 31 años, pero eso no evita que siga disfrutando con los videojuegos, aunque manquee con ellos. Me gustan los juegos con historias largas, aunque siempre los dejo a medias. Nunca le digo que no a una competición de tetris.</p>
+                    <div class="btn">
+                        <a href="#" target="blank"><button class="links-btn">Conóceme</button></a>
+                        <a href="https://www.twitch.tv/nixfire_blue" target="blank"><button class="live-btn">Ver Directo</button></a>
+                    </div>
+                </div>
+                <div class="streamer" id="tomi89">
+                    <span class="foto-span-active"></span><img src="/img/creators/tomi_89.webp" alt="Cargando foto, por favor espera" class="profile-photo"/>
+                    <div class="name-div"><h4 class="name">Tomi_89</h4><span class="confirmed">Asistencia confirmada</span></div>
+                    <p class="creator info">Hey! Soy Tomi, suelo jugar a cosas como Overwatch, LOL, Pokémon y Monster Hunter Soy malísimo en todo, pero al menos me echo unas risas :') , espero que me acompañes en alguna de estas y compartamos esas risas</p>
+                    <div class="btn">
+                        <a href="https://www.twitch.tv/tomi_89" target="blank"><button class="links-btn">Conóceme</button></a>
+                        <a href="https://www.twitch.tv/tomi_89" target="blank"><button class="live-btn">Ver Directo</button></a>
+                    </div>
+                </div>
+                <div class="streamer">
+                    <span class="foto-span-active"></span><img src="/img/creators/setpak70.webp" alt="Cargando foto, por favor espera" class="profile-photo"/>
+                    <div class="name-div"><h4 class="name">Setpak70</h4><span class="confirmed">Asistencia confirmada</span></div>
+                    <p class="creator info">Text text text text text text text text text text text</p>
+                    <div class="btn">
+                        <a href="#" target="blank"><button class="links-btn">Conóceme</button></a>
+                        <a href="https://www.twitch.tv/setpak70_" target="blank"><button class="live-btn">Ver Directo</button></a>
+                    </div>
+                </div>
+                <div class="streamer">
+                    <span class="foto-span-active"></span><img src="/img/creators/valeera16.webp" alt="Cargando foto, por favor espera" class="profile-photo"/>
+                    <div class="name-div"><h4 class="name">Valeera16</h4><span class="confirmed">Asistencia confirmada</span></div>
+                    <p class="creator info">¡Hola! Me llamo Valeera y soy adicta a ser muy noob en los videojuegos. Si quieres ver cómo pierdo mil veces en partidas, estás bienvenido/a a quedarte y disfrutar de mi sufrimiento.</p>
+                    <div class="btn">
+                        <a href="https://twitter.com/valelapatrona" target="blank"><button class="links-btn">Conóceme</button></a>
+                        <a href="https://www.twitch.tv/valeera16" target="blank"><button class="live-btn">Ver Directo</button></a>
+                    </div>
+                </div>
+                <div class="streamer">
+                    <span class="foto-span-active"></span><img src="/img/creators/jaluchis.webp" alt="Cargando foto, por favor espera" class="profile-photo"/>
+                    <div class="name-div"><h4 class="name">JaLuchis</h4><span class="confirmed">Asistencia confirmada</span></div>
+                    <p class="creator info">🌈Hago Just Chating y los videojuegos son mi pasión. Antes que preguntes, JALUCHIS son las iniciales de mis hijos 🤩. Hago Stream todos los días de 16:30 a 21:30 hora española. PREPARATE UN CAFE, SIENTATE Y DISFRUTA UN RATO 😜</p>
+                    <div class="btn">
+                        <a href="https://linktr.ee/jaluchis" target="blank"><button class="links-btn">Conóceme</button></a>
+                        <a href="https://www.twitch.tv/jaluchis" target="blank"><button class="live-btn">Ver Directo</button></a>
+                    </div>
+                </div>
+                <div class="streamer">
+                    <span class="foto-span-active"></span><img src="/img/creators/wuarthrandirk.webp" alt="Cargando foto, por favor espera" class="profile-photo"/>
+                    <div class="name-div"><h4 class="name">Wuarthrandirk</h4><span class="confirmed">Asistencia confirmada</span></div>
+                    <p class="creator info">Hola me llamo Fran (Ramón para chandalman) fan de los videojuegos desde que tengo uso de razón. Gran Masther por excelencia! Trabajamos en la oscuridad para servir a la luz.</p>
+                    <div class="btn">
+                        <a href="#" target="blank"><button class="links-btn">Conóceme</button></a>
+                        <a href="https://www.twitch.tv/wuarthrandirk" target="blank"><button class="live-btn">Ver Directo</button></a>
+                    </div>
+                </div>
+                <div class="streamer">
+                    <span class="foto-span-active"></span><img src="/img/creators/albino1112.webp" alt="Cargando foto, por favor espera" class="profile-photo"/>
+                    <div class="name-div"><h4 class="name">Albino1112</h4><span class="confirmed">Asistencia confirmada</span></div>
+                    <p class="creator info">¡Hola vaquero! Bienvenido al canal de los forajidos. Este es un canal gamer, en el que podrás disfrutar de diversos títulos tales como: Red Dead Redemption 2, Minecraft, GTA V, Call of Duty, Resident Evil y Uncharted entre otros. ¿Te apuntas?</p>
+                    <div class="btn">
+                        <a href="#" target="blank"><button class="links-btn">Conóceme</button></a>
+                        <a href="https://www.twitch.tv/albino1112" target="blank"><button class="live-btn">Ver Directo</button></a>
+                    </div>
+                </div>
+                <div class="streamer">
+                    <span class="foto-span-active"></span><img src="/img/creators/risequis.webp" alt="Cargando foto, por favor espera" class="profile-photo"/>
+                    <div class="name-div"><h4 class="name">Riselquis</h4><span class="confirmed">Asistencia confirmada</span></div>
+                    <p class="creator info">¡Hola a todos! Me llamo Riselquis y tengo 29 años. Me apasionan los videojuegos desde pequeña y bueno, ahora también en versión No-Hit.También hablo mucho aunque no hago Just Chatting.</p>
+                    <div class="btn">
+                        <a href="#" target="blank"><button class="links-btn">Conóceme</button></a>
+                        <a href="https://www.twitch.tv/riselquis" target="blank"><button class="live-btn">Ver Directo</button></a>
+                    </div>
+                </div>
+                <div class="streamer">
+                    <span class="foto-span-active"></span><img src="/img/creators/kelokus.webp" alt="Cargando foto, por favor espera" class="profile-photo"/>
+                    <div class="name-div"><h4 class="name">KelokusGGWP</h4><span class="confirmed">Asistencia confirmada</span></div>
+                    <p class="creator info">Keloke gente, soy un chaval de 23 años y juego al League of Legends, Valorant, Fall Guys y alguno que otro juego mas 👀 Vamos a reírnos un ratillo por aquí y pasar un buen rato</p>
+                    <div class="btn">
+                        <a href="#" target="blank"><button class="links-btn">Conóceme</button></a>
+                        <a href="https://www.twitch.tv/kelokusggwp" target="blank"><button class="live-btn">Ver Directo</button></a>
+                    </div>
+                </div>
+                <div class="streamer">
+                    <span class="foto-span-active"></span><img src="/img/creators/naistrox.webp" alt="Cargando foto, por favor espera" class="profile-photo"/>
+                    <div class="name-div"><h4 class="name">Naistrox</h4><span class="confirmed">Asistencia confirmada</span></div>
+                    <p class="creator info">Hola a todos, me llamo Unai, lo único que busco es poder sacar alguna sonrisa con mis tonterías y mis directos, suelo jugar cualquier tipo de videojuego aunque sea un noob me lo paso genial.</p>
+                    <div class="btn">
+                        <a href="#" target="blank"><button class="links-btn">Conóceme</button></a>
+                        <a href="https://www.twitch.tv/naistrox" target="blank"><button class="live-btn">Ver Directo</button></a>
+                    </div>
+                </div>
+                <div class="streamer">
+                    <span class="foto-span-active"></span><img src="/img/creators/flowshell.webp" alt="Cargando foto, por favor espera" class="profile-photo"/>
+                    <div class="name-div"><h4 class="name">Brian0conner</h4><span class="confirmed">Asistencia confirmada</span></div>
+                    <p class="creator info">🔱Youtuber desde 2018 - Ambición y competitividad sin límites todos los días a las 12:00🔱</p>
+                    <div class="btn">
+                        <a href="#" target="blank"><button class="links-btn">Conóceme</button></a>
+                        <a href="https://www.twitch.tv/rodriguez_rb7" target="blank"><button class="live-btn">Ver Directo</button></a>
+                    </div>
+                </div>
+                <div class="streamer">
+                    <span class="foto-span-active"></span><img src="/img/creators/cristina_op.webp" alt="Cargando foto, por favor espera" class="profile-photo"/>
+                    <div class="name-div"><h4 class="name">Cristina_op</h4><span class="confirmed">Asistencia confirmada</span></div>
+                    <p class="creator info">Hola soy Cristina amante de los videojuegos, suelo jugar a juegos variados. Juego para disfrutar y entretener ago directo todos los días a las 17h</p>
+                    <div class="btn">
+                        <a href="#" target="blank"><button class="links-btn">Conóceme</button></a>
+                        <a href="https://www.twitch.tv/cristina_op" target="blank"><button class="live-btn">Ver Directo</button></a>
+                    </div>
+                </div>
+                <div class="streamer">
+                    <span class="foto-span-active"></span><img src="/img/creators/user.webp" alt="Cargando foto, por favor espera" class="profile-photo"/>
+                    <div class="name-div"><h4 class="name">Krlosca</h4><span class="waiting">Pendiente confirmación</span></div>
+                    <p class="creator info">Canal dedicado a videojuegos de ayer, hoy y mañana, aquí siempre lo pasareis bien y una sonrisa siempre es Bienvenida. Seguidme en redes para no perderos nada!</p>
+                    <div class="btn">
+                        <a href="#" target="blank"><button class="links-btn">Conóceme</button></a>
+                        <a href="https://www.twitch.tv/krlosca29" target="blank"><button class="live-btn">Ver Directo</button></a>
+                    </div>
+                </div>
+                <div class="streamer">
+                    <span class="foto-span-active"></span><img src="/img/creators/user.webp" alt="Cargando foto, por favor espera" class="profile-photo"/>
+                    <div class="name-div"><h4 class="name">Ferni02</h4><span class="confirmed">Asistencia confirmada</span></div>
+                    <p class="creator info">Bienvenidos al canal de Ferni02, es un streamer que a priori parece serio pero si lo conoces un poquito te darás cuenta de que nada es lo que parece, atento de su gente y agradecido, le gusta jugar a juegos, es muy competitivo y poco a poco quiere mejorar la calidad del stream para disfrute de todos</p>
+                    <div class="btn">
+                        <a href="#" target="blank"><button class="links-btn">Conóceme</button></a>
+                        <a href="https://www.twitch.tv/ferni02" target="blank"><button class="live-btn">Ver Directo</button></a>
+                    </div>
+                </div>
+                <div class="streamer">
+                    <span class="foto-span-active"></span><img src="/img/creators/dragneelstormjr.webp" alt="Cargando foto, por favor espera" class="profile-photo"/>
+                    <div class="name-div"><h4 class="name">DragneelStormJr</h4><span class="waiting">Pendiente confirmación</span></div>
+                    <p class="creator info">Text text text text text text text text text text text</p>
+                    <div class="btn">
+                        <a href="#" target="blank"><button class="links-btn">Conóceme</button></a>
+                        <a href="https://www.twitch.tv/dragneelstormjr" target="blank"><button class="live-btn">Ver Directo</button></a>
+                    </div>
+                </div>
+                <div class="streamer">
+                    <span class="foto-span-active"></span><img src="/img/creators/sakusauria.webp" alt="Cargando foto, por favor espera" class="profile-photo"/>
+                    <div class="name-div"><h4 class="name">Sakusauria</h4><span class="waiting">Pendiente confirmación</span></div>
+                    <p class="creator info">Text text text text text text text text text text text</p>
+                    <div class="btn">
+                        <a href="#" target="blank"><button class="links-btn">Conóceme</button></a>
+                        <a href="https://www.twitch.tv/sakusauria" target="blank"><button class="live-btn">Ver Directo</button></a>
+                    </div>
+                </div>
+                <div class="streamer">
+                    <span class="foto-span-active"></span><img src="/img/creators/user.webp" alt="Cargando foto, por favor espera" class="profile-photo"/>
+                    <div class="name-div"><h4 class="name">Versalita02</h4><span class="confirmed">Asistencia confirmada</span></div>
+                    <p class="creator info">Tengo 25 años, soy productora de moda, estilista, ilustradora y amante de los jueguitos y los animales. ¿Queres saber más? Pasate a charlar (:</p>
+                    <div class="btn">
+                        <a href="#" target="blank"><button class="links-btn">Conóceme</button></a>
+                        <a href="https://www.twitch.tv/versalita02" target="blank"><button class="live-btn">Ver Directo</button></a>
+                    </div>
+                </div>
+                <div class="streamer">
+                    <span class="foto-span-active"></span><img src="/img/creators/eairdie.png" alt="Cargando foto, por favor espera" class="profile-photo"/>
+                    <div class="name-div"><h4 class="name">Eairdie</h4><span class="waiting">Pendiente confirmación</span></div>
+                    <p class="creator info">Buenas, Soy Eairdie, tengo 27 años y soy programador web, que en sus tiempos libres juega juegos como debe ser, mi apodo lo tengo porque representa la tierra y el aire, y el die se me hizo bonito, espero que lo pasen bien, y me avisan que tal.</p>
+                    <div class="btn">
+                        <a href="#" target="blank"><button class="links-btn" id="proposed-games">Conóceme</button></a>
+                        <a href="#" target="blank"><button class="live-btn">Ver Directo</button></a>
+                    </div>
+                </div>
+                <div class="streamer">
+                    <span class="foto-span-active"></span><img src="/img/creators/user.webp" alt="Cargando foto, por favor espera" class="profile-photo"/>
+                    <div class="name-div"><h4 class="name">Icosaedricaa</h4><span class="waiting">Pendiente confirmación</span></div>
+                    <p class="creator info">Text text text text text text text text text text text</p>
+                    <div class="btn">
+                        <a href="#" target="blank"><button class="links-btn" id="proposed-games">Conóceme</button></a>
+                        <a href="https://www.twitch.tv/icosaedricaa" target="blank"><button class="live-btn">Ver Directo</button></a>
+                    </div>
+                </div>
+                <h4>Los streamers registrados después del 22 de Julio no hasn podido ser añadidos a la lista</h4>
+                <!--Plantilla con el span para los creadores que estén en directo-->
+                <div class="streamer" style="display:none;">
+                    <span class="foto-span-active"></span><img src="/img/creators/user.webp" alt="Cargando foto, por favor espera" class="profile-photo"/>
+                    <div class="name-div"><h4 class="name">Streamer name</h4><span class="live">● En Directo</span></div>
+                    <p class="creator info">Text text text text text text text text text text text</p>
+                    <div class="btn">
+                        <a href="#" target="blank"><button class="links-btn">Conóceme</button></a>
+                        <a href="#" target="blank"><button class="live-btn">Ver Directo</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="div" id="games">
+            <h2 class="title">Juegos propuestos</h2>
+            <div id="games-cards">
+                <div class="game">
+                    <img src="/img/games/valorant.avif" alt="Cargando foto, por favor espera" class="banner">
+                    <h3 id="title-valorant">Valorant</h3>
+                </div>
+                <div class="game">
+                    <img src="/img/games/fall-guys.jpg" alt="Cargando foto, por favor espera" class="banner">
+                    <h3 id="title-fall-guys">Fall guys</h3>
+                </div>
+                <div class="game">
+                    <img src="/img/games/rocket-league.jpg" alt="Cargando foto, por favor espera" class="banner">
+                    <h3 id="title-rocket-league">Rocket League</h3>
+                </div>
+                <div class="game">
+                    <img src="/img/games/pokemon-showdown.png" alt="Cargando foto, por favor espera" class="banner">
+                    <h3 id="title-pokemon-showdown">Pokemon showdown</h33>
+                </div>
+                <div class="game">
+                    <img src="/img/games/among-us.webp" alt="Cargando foto, por favor espera" class="banner">
+                    <h3 id="title-among-us">Among us</h3>
+                </div>
+                <div class="game" id="starred-content">
+                    <img src="/img/games/bomb-party.png" alt="Cargando foto, por favor espera" class="banner">
+                    <h3 id="title-bomb-party">Bomb party</h3>
+                </div>
+            </div>
+        </div>
+        <div class="div" id="starred">
+            <h2 class="title">Momentos destacados</h2>
+            <p style="text-align:center;">Ahora mismo no hay momentos destacados!!</p>
+        </div>
+        <div id="prizes">
+            <h2 class="title">Premios y ranking</h2>
+            <div id="ranking">
+                <div class="ranking-table">
+                    <h3>Puesto: 1</h3>
+                    <h4>Sin premio</h4>
+                </div>
+                <div class="ranking-table">
+                    <h3>Puesto: 2</h3>
+                    <h4>Sin premio</h4>
+                </div>
+                <div class="ranking-table">
+                    <h3>Puesto: 3</h3>
+                    <h4>Sin premio</h4>
+                </div>
+                <div class="ranking-table">
+                    <h3>Puesto: 4</h3>
+                    <h4>Sin premio</h4>
+                </div>
+            </div>
+            <div id="podium">
+                <div id="position-2"><h2>Puesto: 2</h2><img src="/img/creators/user.webp" alt="Cargando foto, por favor espera. Si el problema persiste, recarga la página" class="ranking-photo"><h3 class="name">Creator name</h3><p>0 Puntos</p></div>
+                <div id="position-1"><h2>Puesto: 1</h2><img src="/img/creators/user.webp" alt="Cargando foto, por favor espera. Si el problema persiste, recarga la página" class="ranking-photo"><h3 class="name">Creator name</h3><p>0 Puntos</p></div>
+                <div id="position-3"><h2>Puesto: 3</h2><img src="/img/creators/user.webp" alt="Cargando foto, por favor espera. Si el problema persiste, recarga la página" class="ranking-photo"><h3 class="name">Creator name</h3><p>0 Puntos</p></div>
+                <div id="position-4"><h2>Puesto: 4</h2><img src="/img/creators/user.webp" alt="Cargando foto, por favor espera. Si el problema persiste, recarga la página" class="ranking-photo"><h3 class="name">Creator name</h3><p>0 Puntos</p></div>
+            </div>
+            <h2 id="podium-pc" style="font-size:5vh;">🖥️</h2>
+            <h4 id="podium-pc">Utiliza tu ordenador para ver el ranking y premios</h4>
+            <h3 class="title">Estadística</h3>
+            <p style="font-size:max(1vw,0.5vh);text-align:center;margin-bottom:4vh;" class="no">Se actualiza después de cada partida</p>
+            <div id="creators-ranking">
+                <div class="creator-points"><h3>TheChandalMan</h3>  <p>Points:0</p>     <p>Won games:0</p></div>
+                <div class="creator-points"><h3>Pakitron5000</h3>   <p>Points:0</p>     <p>Won games:0</p></div>
+                <div class="creator-points"><h3>JaLuchis</h3>       <p>Points:0</p>     <p>Won games:0</p></div>
+                <div class="creator-points"><h3>Tomi_89</h3>        <p>Points:0</p>     <p>Won games:0</p></div>
+                <div class="creator-points"><h3>Setpak70</h3>       <p>Points:0</p>     <p>Won games:0</p></div>
+                <div class="creator-points"><h3>Valeera16</h3>      <p>Points:0</p>     <p>Won games:0</p></div>
+                <div class="creator-points"><h3>NixFire_blue</h3>   <p>Points:0</p>     <p>Won games:0</p></div>
+                <div class="creator-points"><h3>Wuarthrandirk</h3>  <p>Points:0</p>     <p>Won games:0</p></div>
+                <div class="creator-points"><h3>Albino1112</h3>     <p>Points:0</p>     <p>Won games:0</p></div>
+                <div class="creator-points"><h3>Riselquis</h3>      <p>Points:0</p>     <p>Won games:0</p></div>
+                <div class="creator-points"><h3>KelokusGGWP</h3>    <p>Points:0</p>     <p>Won games:0</p></div>
+                <div class="creator-points"><h3>Naistrox</h3>       <p>Points:0</p>     <p>Won games:0</p></div>
+                <div class="creator-points"><h3>Brian0conner</h3>  <p>Points:0</p>     <p>Won games:0</p></div>
+                <div class="creator-points"><h3>Cristina_op</h3>  <p>Points:0</p>     <p>Won games:0</p></div>
+                <div class="creator-points"><h3>Krlosca</h3>  <p>Points:0</p>     <p>Won games:0</p></div>
+                <div class="creator-points"><h3>Ferni02</h3>  <p>Points:0</p>     <p>Won games:0</p></div>
+                <div class="creator-points"><h3>DragneelStormJr</h3>  <p>Points:0</p>     <p>Won games:0</p></div>
+                <div class="creator-points"><h3>Sakusauria</h3>  <p>Points:0</p>     <p>Won games:0</p></div>
+                <div class="creator-points"><h3>Versalita02</h3>  <p>Points:0</p>     <p>Won games:0</p></div>
+                <div class="creator-points"><h3>Eairdie</h3>  <p>Points:0</p>     <p>Won games:0</p></div>
+            </div>
+            
+            <h3 class="title">Contador de puntos:</h3>
+            <div id="points">
+                <h4>1 victoria (Racha 1) - +10pts</h4>
+                <h4>1 victoria (Racha 2) - +15pts</h4>
+                <h4>1 victoria (Racha 3) - +20pts</h4>
+            </div>
+
+        </div>
+        <div id="donate">
+            <p>Ayuda a mantener la página</p>
+            <div id="donate-button-container">
+                <div id="donate-button"></div>
+                <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+                <script>
+                PayPal.Donation.Button({
+                env:'production',
+                hosted_button_id:'6C77LMRVDLY9Q',
+                image: {
+                src:'https://www.paypalobjects.com/es_ES/ES/i/btn/btn_donate_SM.gif',
+                alt:'Botón Donar con PayPal',
+                title:'PayPal - The safer, easier way to pay online!',
+                }
+                }).render('#donate-button');
+                </script>
+            </div>
+        </div>
+                    
+        <h1 id="small-screen">Usa una pantalla más grande para ver esta página</h1>
+        <h1 id="big-screen">Wow!! Tienes la pantalla muy grande!!! Usa las opciones responsive design del navegador y reduce a 1999px como mínimo para ver la página.</h1>
+        <footer style="margin:3vh;">
+            <h4><a href="https://paucabrera.com" style="text-decoration:none;color:rgb(72, 120, 223);" target="blank">Webpage made by: Pau Cabrera</a></h4>
+        </footer>
+    </body>
+</html>
